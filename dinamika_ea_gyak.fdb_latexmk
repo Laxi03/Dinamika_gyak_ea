@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1694773870 "/Users/kunlaszlo/Desktop/LaTex/Dinamika_gyak/dinamika_ea_gyak.tex" "dinamika_ea_gyak.pdf" "dinamika_ea_gyak" 1694773872 0
+["pdflatex"] 1694775359 "/Users/kunlaszlo/Desktop/LaTex/Dinamika_gyak/dinamika_ea_gyak.tex" "dinamika_ea_gyak.pdf" "dinamika_ea_gyak" 1694775362 0
   "/Users/kunlaszlo/Desktop/LaTex/Dinamika_gyak/dinamika_ea_gyak.tex" 1694700416 1733 2fcbb5d66fa02e743b3883025179327e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -264,12 +264,12 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1689665330 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1689665215 7883452 96b5ee044356b8b47bf8a78f7cfacb10 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Ea_gyak_1/2.png" 1694700608 200330 cc4ca359fa66755de09cfc554ae2279e ""
-  "Ea_gyak_1/ea_gyak_1.aux" 1694773872 1245 7d944665fb23a6e006236ef9fa31571a "pdflatex"
-  "Ea_gyak_1/ea_gyak_1.tex" 1694773866 8244 0bcc74caa66c8a2f401d1afc822bd28b ""
+  "Ea_gyak_1/2.png" 1694774441 15783 be547b1a2c7b464925a26292506404a9 ""
+  "Ea_gyak_1/ea_gyak_1.aux" 1694775362 1245 7d944665fb23a6e006236ef9fa31571a "pdflatex"
+  "Ea_gyak_1/ea_gyak_1.tex" 1694775358 8232 e9299be297fbf5abec62ab55487ce9b7 ""
   "bme_logo_nagy.jpg" 1693560752 421830 a5636598bddde377b7fb371981dc1356 ""
-  "dinamika_ea_gyak.aux" 1694773872 668 fafb67375663945101298e13707420d9 "pdflatex"
-  "dinamika_ea_gyak.out" 1694773871 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "dinamika_ea_gyak.aux" 1694775362 668 fafb67375663945101298e13707420d9 "pdflatex"
+  "dinamika_ea_gyak.out" 1694775361 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "dinamika_ea_gyak.tex" 1694700416 1733 2fcbb5d66fa02e743b3883025179327e ""
   (generated)
   "Ea_gyak_1/ea_gyak_1.aux"
