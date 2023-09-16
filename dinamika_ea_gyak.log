@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.18)  15 SEP 2023 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.18)  16 SEP 2023 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -876,7 +876,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count371
 \l__pdf_internal_box=\box151
-) (./dinamika_ea_gyak.aux (./Ea_gyak_1/ea_gyak_1.aux))
+) (./dinamika_ea_gyak.aux (./Ea_gyak_1/ea_gyak_1.aux) (./Ea_gyak_3/Ea_gyak_3.aux))
 \openout1 = `dinamika_ea_gyak.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1022,23 +1022,45 @@ File: Ea_gyak_1/2.png Graphic file (type png)
 <use Ea_gyak_1/2.png>
 Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 101.
 (pdftex.def)             Requested size: 181.27599pt x 144.73975pt.
- [4] [5]) [6] (./dinamika_ea_gyak.aux (./Ea_gyak_1/ea_gyak_1.aux))
+ [4] [5]) [6] [7]
+\openout2 = `Ea_gyak_3/Ea_gyak_3.aux'.
+
+ (./Ea_gyak_3/Ea_gyak_3.tex [8
+
+
+
+] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+ []
+
+[10]
+File: Ea_gyak_1/2.png Graphic file (type png)
+<use Ea_gyak_1/2.png>
+Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 117.
+(pdftex.def)             Requested size: 181.27599pt x 144.73975pt.
+ [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
+
+ []
+
+) [13] [14] (./dinamika_ea_gyak.aux (./Ea_gyak_1/ea_gyak_1.aux) (./Ea_gyak_3/Ea_gyak_3.aux))
 Package rerunfilecheck Info: File `dinamika_ea_gyak.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 38851 strings out of 476025
- 888660 string characters out of 5790017
- 1863388 words of memory out of 5000000
- 58646 multiletter control sequences out of 15000+600000
+ 38903 strings out of 476025
+ 889999 string characters out of 5790017
+ 1865388 words of memory out of 5000000
+ 58682 multiletter control sequences out of 15000+600000
  527100 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,807b,927s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on dinamika_ea_gyak.pdf (7 pages, 620885 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb>
+Output written on dinamika_ea_gyak.pdf (15 pages, 662204 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
