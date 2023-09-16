@@ -38,13 +38,39 @@ $$\underline{r}(t) = \begin{bmatrix}
 ha ezeket együtt ábrázoljuk az idő koordinátáját elhagyva, akkor az anyagi pont pályáját kapjuk:
 \begin{center}
 \usetikzlibrary {3d}
-\begin{tikzpicture}[->]
-    \draw (0,0,0) -- (xyz cylindrical cs:radius=3);
-    \draw (0,0,0) -- (xyz cylindrical cs:radius=2.5,angle=90);
-    \draw (0,0,0) -- (xyz cylindrical cs:z=3);
-    \draw (0,0,0) -- (xyz cylindrical cs: radius= 2, angle=40);
+\begin{tikzpicture}[x=10cm,y=10cm]
+    \begin{axis}[
+        view={150}{30}, % Adjust the view angle
+        axis lines=center,
+        xlabel={$x$},
+        ylabel={$y$},
+        zlabel={$z$},
+        xmin=-5, xmax=5,
+        ymin=-1, ymax=1,
+        zmin=-1, zmax=1,
+        ticks=none, % Hide axis ticks
+        width=10cm, % Adjust the width of the plot
+        height=10cm, % Adjust the height of the plot
+        enlargelimits=0.3, % Add some padding to the plot
+    ]
     
-\end{tikzpicture}
+    % Define the parametric equation for a one-loop helix
+    \addplot3[
+        domain=-28:10, % One loop corresponds to one full cycle (2*pi)
+        samples=50, % Increase the number of samples for a smoother curve
+        variable=t,
+        samples y = 0
+    ]({t/5}, {cos(10*t)}, {sin(8*t)});
+
+    % Line segment
+    \addplot3[
+        domain=-100:-28, % One loop corresponds to one full cycle (2*pi)
+        samples=50, % Increase the number of samples for a smoother curve
+        variable=t,
+        samples y = 0
+    ]({t/5}, {cos(-10*28)}, {sin(-8*28) + (t/800) + 28/800});
+    \end{axis}
+    \end{tikzpicture}
 \end{center}
 \end{tcolorbox}
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
