@@ -15,11 +15,9 @@
 Mivel a bennünket körülvevő világ rendkívül összetett, közelítésekkel kell élnünk és a jelenség szempontjából fontosabb körülményeket kell kiemelnünk/figyelembe vennünk. Ezt hívjuk modellalkotásnak.\\\\
 \textbf{Első modell:} Anyagi pont méretei lényegtelenek a vizsgált probléma szempontjából, tömegét viszont figyelembe vesszük a későbbiekben.\\
 \textbf{Megjegyzés:} Ugyanazt a testet különböző feladatokban más-más mechanikai modellekkel vehetjük figyelembe.
-
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Példa]
 Az úton közlekedő járműveket anyagi pontként modellezük, hogy a járműforgalomra vagyunk kiváncsiak, de hogyha a jármű manővereit is figyelembe akarjuk venni, akkor fontossá válik az autó alakja, tömegelosztása stb., így merev testként modellezük.
 \end{tcolorbox}
-
 \textbf{Alapvető fogalmak:}\\
 Bármely anyagi test helyzete és mozgás más testekhez képest értelmezhető, tehát ki kell választanunk ezt a testet/testeket. Ezt vonatkoztatási rendszernek hívjuk. Ezt mindig meg kell adnunk, mert a mozgás különböző lehet más vonatkoztatási rendszerből nézve.
 \begin{itemize}
@@ -27,7 +25,6 @@ Bármely anyagi test helyzete és mozgás más testekhez képest értelmezhető,
     \item Mozgó járműben az utastér pontjait állónak látjuk és úgy tűnik, mintha a környezet mozogna
 \end{itemize}  
 A mozgások leírásához koordináta-rendszert kell felvennünk, ezt úgy célszerű felvenni, hogy a lehető legegyszerűbb legyen ebben a feladat megoldása.  
-
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
 \textbf{Mozgástörvény:} Az a függvény, mely egyértelműen megadja, hogy a vizsgált test pontjainak helye hogyan változik az időben. Anyagi pont esetében a mozgástörvény a helyvektor időbeli változását megadó vektorértékű \(\underline{r}(t)\) függvény.
 $$\underline{r}(t) = \begin{bmatrix}
@@ -77,27 +74,24 @@ ha ezeket együtt ábrázoljuk az idő koordinátáját elhagyva, akkor az anyag
     \end{tikzpicture}
 \end{center}
 \end{tcolorbox}
-
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
 \textbf{Pálya:} Az anyagi pont helyvektorának grafikonja térben (időfüggés nélkül)\\
 \textbf{Anyagi pont pillanyatni sebessége:} az \(\underline{r}(t)\) helyvektor idő szerinti deriváltja
 $$\underline{v}(t) = \dfrac{d \underline{r}(t)}{dt} = \underline{r}(t)$$
 \underline{\underline{Fontos}} csak akkor nulla egy vektor időszerinti deriváltja, ha sem a mozgása sem az iránya nem változik!
 \end{tcolorbox}
-
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
 \textbf{Anyagi pont pillanatnyi gyorsulása:} az \(\underline{r}(t)\) sebességvektor idő szerinti deriváltja
 $$\underline{a}(t) = \dfrac{d^2r(t)}{dt^2} = \underline{\dot{v}}(t) = \ddot{\underline{r}}(t)$$
 Csak az egyenes vonalú, egyenletes mozgás esetén nulla a gyorsulás!
 \begin{multicols}{2}
-    \fbox{\includegraphics[scale = 0.6]{Ea_gyak_1/2.png}}
+    \includegraphics[scale = 0.6]{Ea_gyak_1/2.png}
     \columnbreak
 
     A sebesség vektor párhuzamos a pálya érintőjével!
     A gyorsulásvektor is megadható két természetes komponens segítségével, melyek közül az egyik a sebesség nagyságának változásával kapcsolatos és érintőirányú, a másik a sebesség irányának változását jellemzi és az előzőre merőleges.
 \end{multicols}
 \end{tcolorbox}
-
 Vagyis a
 \begin{itemize}
     \item tangenciális gyorsulás: \(\underline{a}_t = a_t \cdot \underline{e}_t\), ahol \(\underline{e}_t \mid\mid \underline{v}\) és \(\underline{e}_t\) egy bázisvektor
@@ -114,27 +108,24 @@ $$\underline{e}_b = \underline{e}_t \times  \underline{e}_n$$
 \textbf{Normális gyorsulás:} \(a_n = \dfrac{v^2}{\varrho}\), ahol a \(\varrho\) a görbületi sugár
 \newpage
 \begin{multicols}{2}
-    \fbox{\includegraphics[scale = 0.6]{Ea_gyak_1/2.png}}
+    \includegraphics[scale = 0.7]{Ea_gyak_1/2.png}
     \columnbreak
 
     A pálya, akkor lehet igazi térbeli görbe, ha a mozgás során folyamatosan változó irányú \(\underline{e}_t\) és \(\underline{e}_n\) vektorok által kifeszített sík (simulósík) helyzete változik. (A simulósík pálya menti elfordulását a tartozó \(\underline{\dddot{r}}(t)\) (jerk) jellemzi)
 \end{multicols}
-
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
 \textbf{Jerk:} Kinetikai egyenleteknél nem használatos, de például tömegközlekedésnél a testtartásunk megváltoztatásával könnyen alkalmazkodunk a gyorsuláshoz, de ennek megváltozásához viszont nem.
 \end{tcolorbox}
-
  \textbf{Pályához illeszkedő koordináták:}
 \begin{itemize}
     \item A sebesség előjeles nagysága a pályasebesség
     \item A pályasebesség további deriválásával a gyorsulás érintő irányú kompenensének az előjeles nagyságát kapjuk, ez a pályagyorsulás.
     \item Értelmezzük még keringési szögsebességet és szöggyorsulást, de fontos megjegyezni, hogy anyagi pontnak nincs szögsebesség vagy szöggyorsulása! (A szögsebesség az elfordulás ütemét jelenti!)
 \end{itemize}
-
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
 Az adott pályán mozgó anyagi pont pozícióját egyértelműen megadhatjuk egy választott kezdőpontból mért \(s\) ívhosszparaméterrel, azaz a pálya mentén mért koordinátával. Az ívhossz paraméter időbeli változása \(s(t)\) a befutási törvény.
 \begin{multicols}{2}
-    \fbox{\includegraphics[scale = 0.6]{Ea_gyak_1/2.png}}
+    \includegraphics[scale = 0.7]{Ea_gyak_1/2.png}
     \columnbreak
 
   Pályasebesség: \(v=\dot{s}(t)\)\\
@@ -142,12 +133,11 @@ Az adott pályán mozgó anyagi pont pozícióját egyértelműen megadhatjuk eg
   Ezeket együttesen \underline{foronómiai görbéknek} hívjuk!
 \end{multicols}
 \end{tcolorbox}
-
+\newpage
 \textbf{Kényszerek:}
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
     \textbf{Szabadsági fok (DoF):} Azon független skalár függvények száma, melyek egyértelműen megadják a rendszer mozgástörvényét!
     \end{tcolorbox}
-
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
     Kényszernek előírt geometriai vagy kinematikai feltételek melyek korlátozásokat jelentenek a mozgásokra nézve.\\
     \textbf{Osztályozásuk:}
@@ -162,7 +152,6 @@ Az adott pályán mozgó anyagi pont pozícióját egyértelműen megadhatjuk eg
         \end{multicols}
     \end{itemize}
 \end{tcolorbox}
-
 \newpage
 \begin{center}
     \large \textbf{1. Gyakorlat}\\
