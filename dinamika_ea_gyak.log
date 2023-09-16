@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.24)  16 SEP 2023 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.24)  16 SEP 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1005,23 +1005,23 @@ File: tikzlibrary3d.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \end{tcolorbox}
+l.81 \end{tcolorbox}
                      [1
 
 ]
 <Ea_gyak_1/2.png, id=24, 258.9675pt x 206.7725pt>
 File: Ea_gyak_1/2.png Graphic file (type png)
 <use Ea_gyak_1/2.png>
-Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 88.
+Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 87.
 (pdftex.def)             Requested size: 155.38168pt x 124.06445pt.
  [2] [3 <./Ea_gyak_1/2.png>]
 File: Ea_gyak_1/2.png Graphic file (type png)
 <use Ea_gyak_1/2.png>
-Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 111.
+Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 110.
 (pdftex.def)             Requested size: 181.27599pt x 144.73975pt.
 File: Ea_gyak_1/2.png Graphic file (type png)
 <use Ea_gyak_1/2.png>
-Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 128.
+Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 127.
 (pdftex.def)             Requested size: 181.27599pt x 144.73975pt.
  [4] [5]) [6] (dinamika_ea_gyak.aux (Ea_gyak_1/ea_gyak_1.aux))
 Package rerunfilecheck Info: File `dinamika_ea_gyak.out' has not changed.
