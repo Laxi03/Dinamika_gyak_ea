@@ -53,22 +53,72 @@ ha ezeket együtt ábrázoljuk az idő koordinátáját elhagyva, akkor az anyag
         height=10cm, % Adjust the height of the plot
         enlargelimits=0.3, % Add some padding to the plot
     ]
-    
+    \def\param{-28}
+
     % Define the parametric equation for a one-loop helix
     \addplot3[
-        domain=-28:10, % One loop corresponds to one full cycle (2*pi)
+        domain=\param:10, % One loop corresponds to one full cycle (2*pi)
         samples=50, % Increase the number of samples for a smoother curve
         variable=t,
-        samples y = 0
+        samples y = 0,
+        line width=1.2pt, % Adjust the line width
     ]({t/5}, {cos(10*t)}, {sin(8*t)});
 
     % Line segment
     \addplot3[
-        domain=-100:-28, % One loop corresponds to one full cycle (2*pi)
+        domain=\param:-50,
         samples=50, % Increase the number of samples for a smoother curve
         variable=t,
-        samples y = 0
-    ]({t/5}, {cos(-10*28)}, {sin(-8*28) + (t/800) + 28/800});
+        samples y = 0,
+        line width=1.2pt, % Adjust the line width
+    ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t/200) - \param/200});
+
+    % Add the point
+    \addplot3[mark options = {color=black,scale=0.8, color = purple},mark = *]
+    coordinates {({\param/5},{cos(10*\param)}, {sin(8*\param)})};
+    
+    % Coordinates of the point
+    \def\rx{\param/5}
+    \def\ry{cos(10*\param)}
+    \def\rz{sin(8*\param)}
+    
+    % r(t)
+    \addplot3[line width=0.8pt, color = teal] coordinates {
+        (0,0,0)
+        ({\rx/2}, {\ry/2}, {\rz/2})
+        } node[below, pos=1] {$\underline{r}(t)$};
+\addplot3[-latex, line width=0.8pt, color = teal] coordinates {
+        ({\rx/2}, {\ry/2}, {\rz/2})
+        ({\rx}, {\ry}, {\rz})};
+
+    %t_0
+    \addplot3[
+        domain=9.9:10,
+        samples=50, % Increase the number of samples for a smoother curve
+        variable=t,
+        samples y = 0,
+        line width=1.2pt, % Adjust the line width
+    ]({t/5}, {cos(10*t)}, {sin(8*t)}) node[left,pos=1] {$t_0$};
+
+    %t_1
+    \addplot3[
+        domain=\param:-50,
+        samples=50, % Increase the number of samples for a smoother curve
+        variable=t,
+        samples y = 0,
+        line width=1.2pt, % Adjust the line width
+    ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t/200) - \param/200}) node[below,pos=1] {$t_1$};
+
+    %t |-->
+    \addplot3[
+        domain=10:8,
+        samples=50, % Increase the number of samples for a smoother curve
+        variable=t,
+        samples y = 0,
+        |-latex,
+        line width=0.6pt % Adjust the line width
+    ]({t/5 - 0.5}, {cos(10*t) - 0.1}, {sin(8*t)}) node[above, pos=1] {$t$};
+
     \end{axis}
     \end{tikzpicture}
 \end{center}
@@ -79,18 +129,143 @@ ha ezeket együtt ábrázoljuk az idő koordinátáját elhagyva, akkor az anyag
 $$\underline{v}(t) = \dfrac{d \underline{r}(t)}{dt} = \underline{r}(t)$$
 \underline{\underline{Fontos}} csak akkor nulla egy vektor időszerinti deriváltja, ha sem a mozgása sem az iránya nem változik!
 \end{tcolorbox}
+
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= Definíció]
 \textbf{Anyagi pont pillanatnyi gyorsulása:} az \(\underline{r}(t)\) sebességvektor idő szerinti deriváltja
 $$\underline{a}(t) = \dfrac{d^2r(t)}{dt^2} = \underline{\dot{v}}(t) = \ddot{\underline{r}}(t)$$
 Csak az egyenes vonalú, egyenletes mozgás esetén nulla a gyorsulás!
 \begin{multicols}{2}
-    \includegraphics[scale = 0.6]{Ea_gyak_1/2.png}
+    \begin{tikzpicture}[x=10cm,y=10cm]
+        \begin{axis}[
+            view={150}{30}, % Adjust the view angle
+            axis lines=center,
+            xlabel={$x$},
+            ylabel={$y$},
+            zlabel={$z$},
+            xmin=-5, xmax=5,
+            ymin=-1, ymax=1,
+            zmin=-1, zmax=1,
+            ticks=none, % Hide axis ticks
+            width=10cm, % Adjust the width of the plot
+            height=10cm, % Adjust the height of the plot
+            enlargelimits=0.3, % Add some padding to the plot
+        ]
+        \def\param{-28}
+    
+        % Define the parametric equation for a one-loop helix
+        \addplot3[
+            domain=\param:10, % One loop corresponds to one full cycle (2*pi)
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*t)}, {sin(8*t)});
+    
+        % Line segment
+        \addplot3[
+            domain=\param:-50,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t/200) - \param/200});
+    
+        % Coordinates of the point
+        \def\rx{\param/5}
+        \def\ry{cos(10*\param)}
+        \def\rz{sin(8*\param)}
+
+        % Add the point
+        \addplot3[mark options = {color=black,scale=0.8, color = purple},mark = *]
+                coordinates {({\rx}, {\ry}, {\rz})};
+        
+
+        % r(t)
+        \addplot3[line width=0.8pt, color = teal] coordinates {
+                (0,0,0)
+                ({\rx/2}, {\ry/2}, {\rz/2})
+                } node[below, pos=1] {$\underline{r}(t)$};
+        \addplot3[-latex, line width=0.8pt, color = teal] coordinates {
+                ({\rx/2}, {\ry/2}, {\rz/2})
+                ({\rx}, {\ry}, {\rz})};
+    
+        %t_0
+        \addplot3[
+            domain=9.9:10,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*t)}, {sin(8*t)}) node[left,pos=1] {$t_0$};
+    
+        %t_1
+        \addplot3[
+            domain=\param:-50,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t/200) - \param/200}) node[below,pos=1] {$t_1$};
+    
+        %t |-->
+        \addplot3[
+            domain=10:8,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            |-latex,
+            line width=0.6pt % Adjust the line width
+        ]({t/5 - 0.5}, {cos(10*t) - 0.1}, {sin(8*t)}) node[above, pos=1] {$t$};
+
+        %tangent line to point r
+        \addplot3[
+            dashed,
+            domain=-5:-70,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.4pt, % Adjust the line width
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700});
+
+        %v(t)
+        \addplot3[
+            domain=\param:-35,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.8pt, % Adjust the line width
+            color = blue,
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700}) node[above, pos=1] {$\underline{v}(t)$};
+        \addplot3[
+            domain=\param:-40,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.8pt, % Adjust the line width
+            color = blue,
+            -latex,
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700});
+
+        %a(t)
+        \addplot3[
+            domain=\param:-45,
+            samples=50, % Increase the number of samples for a smoother curve
+            line width=0.8pt, % Adjust the line width
+            color = red,
+            -latex,
+        ] coordinates {
+            ({\rx}, {\ry}, {\rz})    
+            ({\rx - 2}, 1.2, {\rz})} node[below, pos=1] {$\underline{a}(t)$};
+    
+        \end{axis}
+        \end{tikzpicture}
     \columnbreak
 
     A sebesség vektor párhuzamos a pálya érintőjével!
     A gyorsulásvektor is megadható két természetes komponens segítségével, melyek közül az egyik a sebesség nagyságának változásával kapcsolatos és érintőirányú, a másik a sebesség irányának változását jellemzi és az előzőre merőleges.
 \end{multicols}
 \end{tcolorbox}
+
 Vagyis a
 \begin{itemize}
     \item tangenciális gyorsulás: \(\underline{a}_t = a_t \cdot \underline{e}_t\), ahol \(\underline{e}_t \mid\mid \underline{v}\) és \(\underline{e}_t\) egy bázisvektor
@@ -107,7 +282,197 @@ $$\underline{e}_b = \underline{e}_t \times  \underline{e}_n$$
 \textbf{Normális gyorsulás:} \(a_n = \dfrac{v^2}{\varrho}\), ahol a \(\varrho\) a görbületi sugár
 \newpage
 \begin{multicols}{2}
-    \includegraphics[scale = 0.7]{Ea_gyak_1/2.png}
+    \begin{tikzpicture}
+        \begin{axis}[
+            view={150}{30}, % Adjust the view angle
+            axis lines=center,
+            xlabel={$x$},
+            ylabel={$y$},
+            zlabel={$z$},
+            xmin=-5, xmax=5,
+            ymin=-1, ymax=1,
+            zmin=-1, zmax=1,
+            ticks=none, % Hide axis ticks
+            width=10cm, % Adjust the width of the plot
+            height=10cm, % Adjust the height of the plot
+            enlargelimits=0.3, % Add some padding to the plot
+        ]
+        \def\param{-28}
+    
+        % Define the parametric equation for a one-loop helix
+        \addplot3[
+            domain=\param:10, % One loop corresponds to one full cycle (2*pi)
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*t)}, {sin(8*t)});
+    
+        % Line segment
+        \addplot3[
+            domain=\param:-50,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t/200) - \param/200});
+    
+        % Coordinates of the point
+        \def\rx{\param/5}
+        \def\ry{cos(10*\param)}
+        \def\rz{sin(8*\param)}
+
+        % Add the point
+        \addplot3[mark options = {color=black,scale=0.8, color = purple},mark = *]
+                coordinates {({\rx}, {\ry}, {\rz})};
+        
+
+        % r(t)
+        \addplot3[line width=0.8pt, color = teal] coordinates {
+                (0,0,0)
+                ({\rx/2}, {\ry/2}, {\rz/2})
+                } node[below, pos=1] {$\underline{r}(t)$};
+        \addplot3[-latex, line width=0.8pt, color = teal] coordinates {
+                ({\rx/2}, {\ry/2}, {\rz/2})
+                ({\rx}, {\ry}, {\rz})};
+    
+        %t_0
+        \addplot3[
+            domain=9.9:10,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*t)}, {sin(8*t)}) node[left,pos=1] {$t_0$};
+    
+        %t_1
+        \addplot3[
+            domain=\param:-50,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=1.2pt, % Adjust the line width
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t/200) - \param/200}) node[below,pos=1] {$t_1$};
+    
+        %t |-->
+        \addplot3[
+            domain=10:8,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            |-latex,
+            line width=0.6pt % Adjust the line width
+        ]({t/5 - 0.5}, {cos(10*t) - 0.1}, {sin(8*t)}) node[above, pos=1] {$t$};
+
+        %tangent line to point r
+        \addplot3[
+            dashed,
+            domain=-5:-70,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.4pt, % Adjust the line width
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700});
+
+        %e_t
+        \addplot3[
+            domain=\param:-50,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.8pt, % Adjust the line width
+            color = orange,
+            -latex,
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700}) node[right, pos=1] {$\underline{e}_t$};
+
+        %a_t
+        \addplot3[
+            domain=\param:-45,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.8pt, % Adjust the line width
+            color = red,
+            -latex,
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700}) node[above, pos=1] {$\underline{a}_t$};
+
+        %v(t)
+        \addplot3[
+            domain=\param:-35,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.8pt, % Adjust the line width
+            color = blue,
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700}) node[above, pos=1] {$\underline{v}(t)$};
+        \addplot3[
+            domain=\param:-40,
+            samples=50, % Increase the number of samples for a smoother curve
+            variable=t,
+            samples y = 0,
+            line width=0.8pt, % Adjust the line width
+            color = blue,
+            -latex,
+        ]({t/5}, {cos(10*\param)}, {sin(8*\param) + (t)/700 - \param/700});
+
+        %a(t)
+        \addplot3[
+            domain=\param:-45,
+            samples=50, % Increase the number of samples for a smoother curve
+            line width=0.8pt, % Adjust the line width
+            color = red,
+            -latex,
+        ] coordinates {
+            ({\rx}, {\ry}, {\rz})    
+            ({\rx -2}, 1.2, {\rz})} node[below, pos=1] {$\underline{a}(t)$};
+
+        %a_t -- a(t)
+        \addplot3[
+            domain=\param:-45,
+            samples=50, % Increase the number of samples for a smoother curve
+            line width=0.8pt, % Adjust the line width
+            color = red,
+            dashed,
+        ] coordinates {
+            ({-45/5}, {cos(10*\param)}, {sin(8*\param) + (-45)/700 - \param/700})    
+            ({\rx -2}, 1.2, {\rz})};
+            
+        %e_n
+        \addplot3[
+            domain=\param:-45,
+            samples=50, % Increase the number of samples for a smoother curve
+            line width=0.8pt, % Adjust the line width
+            color = orange,
+            -latex,
+        ] coordinates {
+            ({\rx}, {\ry}, {\rz})    
+            ({\rx + 1.58}, 1.8, {\rz})} node[below, pos=1] {$\underline{e}_n$};
+        
+        %a_n
+        \addplot3[
+            domain=\param:-45,
+            samples=50, % Increase the number of samples for a smoother curve
+            line width=0.8pt, % Adjust the line width
+            color = red,
+            -latex,
+        ] coordinates {
+            ({\rx}, {\ry}, {\rz})    
+            ({\rx + 1}, 1.2, {\rz})} node[below, pos=1] {$\underline{a}_n$};
+
+
+        %a_n -- a(t)
+        \addplot3[
+            domain=\param:-45,
+            samples=50, % Increase the number of samples for a smoother curve
+            line width=0.8pt, % Adjust the line width
+            color = red,
+            dashed,
+        ] coordinates {
+            ({\rx + 1}, 1.2, {\rz})    
+            ({\rx -2}, 1.2, {\rz})};
+    
+        \end{axis}
+        \end{tikzpicture}
     \columnbreak
 
     A pálya, akkor lehet igazi térbeli görbe, ha a mozgás során folyamatosan változó irányú \(\underline{e}_t\) és \(\underline{e}_n\) vektorok által kifeszített sík (simulósík) helyzete változik. (A simulósík pálya menti elfordulását a tartozó \(\underline{\dddot{r}}(t)\) (jerk) jellemzi)

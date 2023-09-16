@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.24)  16 SEP 2023 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.24)  16 SEP 2023 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1005,38 +1005,29 @@ File: tikzlibrary3d.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 \end{tcolorbox}
-                     [1
+l.131 \end{tcolorbox}
+                      [1
 
-]
-<Ea_gyak_1/2.png, id=24, 258.9675pt x 206.7725pt>
+] [2] [3]
+<Ea_gyak_1/2.png, id=38, 258.9675pt x 206.7725pt>
 File: Ea_gyak_1/2.png Graphic file (type png)
 <use Ea_gyak_1/2.png>
-Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 87.
-(pdftex.def)             Requested size: 155.38168pt x 124.06445pt.
- [2] [3 <./Ea_gyak_1/2.png>]
-File: Ea_gyak_1/2.png Graphic file (type png)
-<use Ea_gyak_1/2.png>
-Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 110.
+Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 492.
 (pdftex.def)             Requested size: 181.27599pt x 144.73975pt.
-File: Ea_gyak_1/2.png Graphic file (type png)
-<use Ea_gyak_1/2.png>
-Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 127.
-(pdftex.def)             Requested size: 181.27599pt x 144.73975pt.
- [4] [5]) [6] (dinamika_ea_gyak.aux (Ea_gyak_1/ea_gyak_1.aux))
+ [4 <./Ea_gyak_1/2.png>] [5]) [6] (dinamika_ea_gyak.aux (Ea_gyak_1/ea_gyak_1.aux))
 Package rerunfilecheck Info: File `dinamika_ea_gyak.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39289 strings out of 475285
- 906322 string characters out of 2774119
- 1384348 words of memory out of 3000000
- 60103 multiletter control sequences out of 15000+600000
+ 39401 strings out of 475285
+ 908439 string characters out of 2774119
+ 1474120 words of memory out of 3000000
+ 60215 multiletter control sequences out of 15000+600000
  484072 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,94p,814b,2314s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,12n,94p,814b,2562s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1728.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on dinamika_ea_gyak.pdf (7 pages, 587812 bytes).
+Output written on dinamika_ea_gyak.pdf (7 pages, 600438 bytes).
 PDF statistics:
  324 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
