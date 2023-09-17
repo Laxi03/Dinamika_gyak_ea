@@ -1299,6 +1299,8 @@ INPUT C:\Users\kisha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx120
 INPUT C:\Users\kisha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\kisha\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary3d.code.tex
 INPUT C:\Users\kisha\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary3d.code.tex
+INPUT C:\Users\kisha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT C:\Users\kisha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
 INPUT .\Ea_gyak_3\Ea_gyak_3.tex
 OUTPUT Ea_gyak_3\Ea_gyak_3.aux
 INPUT .\Ea_gyak_3\Ea_gyak_3.tex

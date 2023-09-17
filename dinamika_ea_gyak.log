@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.24)  17 SEP 2023 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.24)  18 SEP 2023 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1008,45 +1008,48 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.131 \end{tcolorbox}
                       [1
 
-] [2] [3] [4] [5]) [6] [7]
+] [2] [3] [4] [5] [6]
+Overfull \vbox (5.33731pt too high) has occurred while \output is active []
+
+ [7]) [8] [9]
 \openout2 = `Ea_gyak_3/Ea_gyak_3.aux'.
 
- (Ea_gyak_3/Ea_gyak_3.tex [8
+ (Ea_gyak_3/Ea_gyak_3.tex [10
 
 
 
-] [9]
+] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
-[10]
-<Ea_gyak_1/2.png, id=68, 258.9675pt x 206.7725pt>
+[12]
+<Ea_gyak_1/2.png, id=77, 258.9675pt x 206.7725pt>
 File: Ea_gyak_1/2.png Graphic file (type png)
 <use Ea_gyak_1/2.png>
 Package pdftex.def Info: Ea_gyak_1/2.png  used on input line 117.
 (pdftex.def)             Requested size: 181.27599pt x 144.73975pt.
- [11 <./Ea_gyak_1/2.png>] [12]
+ [13 <./Ea_gyak_1/2.png>] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
 
-) [13] [14] (dinamika_ea_gyak.aux (Ea_gyak_1/ea_gyak_1.aux) (Ea_gyak_3/Ea_gyak_3.aux))
+) [15] [16] (dinamika_ea_gyak.aux (Ea_gyak_1/ea_gyak_1.aux) (Ea_gyak_3/Ea_gyak_3.aux))
 Package rerunfilecheck Info: File `dinamika_ea_gyak.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39486 strings out of 475285
- 910653 string characters out of 2774119
- 1474871 words of memory out of 3000000
- 60283 multiletter control sequences out of 15000+600000
- 484072 words of font info for 68 fonts, out of 8000000 for 9000
+ 39572 strings out of 475285
+ 912453 string characters out of 2774119
+ 1474869 words of memory out of 3000000
+ 60365 multiletter control sequences out of 15000+600000
+ 485602 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,814b,2562s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1728.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\kisha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on dinamika_ea_gyak.pdf (15 pages, 653319 bytes).
+Output written on dinamika_ea_gyak.pdf (17 pages, 658205 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

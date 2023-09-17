@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1694956166 "c:/Users/kisha/Programok/vs code/Dinamika_gyak_ea/dinamika_ea_gyak.tex" "dinamika_ea_gyak.pdf" "dinamika_ea_gyak" 1694956173
+["pdflatex"] 1694988182 "c:/Users/kisha/Programok/vs code/Dinamika_gyak_ea/dinamika_ea_gyak.tex" "dinamika_ea_gyak.pdf" "dinamika_ea_gyak" 1694988189
   "C:/Users/kisha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693779673 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/kisha/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1669299236 31952 06537fc1ecbe352593f60f59a8165862 ""
   "C:/Users/kisha/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1670780036 40136 252909a89f9362bc201aa1180306078e ""
@@ -15,6 +15,8 @@
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx2488.tfm" 993061966 3192 b0a07ba84fb3fb36d088c4f796e254b9 ""
+  "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0600.tfm" 993062116 3160 116e21835795bb29209ae8bb4682382f ""
+  "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0800.tfm" 993062118 3152 11ecf5aad6aacf00ff18f394ab23a8b5 ""
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1728.tfm" 993062128 3168 11457c8185ce67fb79662ba8b03d6db1 ""
@@ -263,13 +265,13 @@
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Ea_gyak_1/2.png" 1694867051 15783 a7636a5aad2c6acebc29d87e715a29d2 ""
-  "Ea_gyak_1/ea_gyak_1.aux" 1694956172 1246 22a3e28a98dfcf19242807c5dfb9f221 "pdflatex"
-  "Ea_gyak_1/ea_gyak_1.tex" 1694956156 28807 0138e22c2d2bb6a76b5f5fe162fbc9e9 ""
-  "Ea_gyak_3/Ea_gyak_3.aux" 1694956172 1247 25ad6875d0808405627e34151bbd145d "pdflatex"
+  "Ea_gyak_1/ea_gyak_1.aux" 1694988189 1247 44cd478d35afca3c6ba5a6caa4ef42e7 "pdflatex"
+  "Ea_gyak_1/ea_gyak_1.tex" 1694988177 33813 21948b2532311db610a31a2b368b2ec6 ""
+  "Ea_gyak_3/Ea_gyak_3.aux" 1694988189 1247 c508de47634259a022b7a5b2a9dc9065 "pdflatex"
   "Ea_gyak_3/Ea_gyak_3.tex" 1694875176 12811 caee3bb34106fc6b76a49ed50d06e74d ""
   "bme_logo_nagy.jpg" 1694779155 421830 6be4e417acfa36622eb75b8dd8d24169 ""
   "c:/Users/kisha/Programok/vs code/Dinamika_gyak_ea/dinamika_ea_gyak.tex" 1694875176 1868 ad7c6dcd0969955f1d03fc1239200a1f ""
-  "dinamika_ea_gyak.aux" 1694956172 702 37d82aea76280db9a7573a1f4061b856 "pdflatex"
+  "dinamika_ea_gyak.aux" 1694988189 702 0236bf020d22c1a0c0d0da0d9b6c52a9 "pdflatex"
   "dinamika_ea_gyak.out" 0 -1 0 "pdflatex"
   "dinamika_ea_gyak.tex" 1694875176 1868 ad7c6dcd0969955f1d03fc1239200a1f ""
   (generated)
