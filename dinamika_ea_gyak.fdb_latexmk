@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1694953513 "c:/Users/kisha/Programok/vs code/Dinamika_gyak_ea/dinamika_ea_gyak.tex" "dinamika_ea_gyak.pdf" "dinamika_ea_gyak" 1694953521
+["pdflatex"] 1694956166 "c:/Users/kisha/Programok/vs code/Dinamika_gyak_ea/dinamika_ea_gyak.tex" "dinamika_ea_gyak.pdf" "dinamika_ea_gyak" 1694956173
   "C:/Users/kisha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693779673 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/kisha/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1669299236 31952 06537fc1ecbe352593f60f59a8165862 ""
   "C:/Users/kisha/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1670780036 40136 252909a89f9362bc201aa1180306078e ""
@@ -263,13 +263,13 @@
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044406800 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kisha/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Ea_gyak_1/2.png" 1694867051 15783 a7636a5aad2c6acebc29d87e715a29d2 ""
-  "Ea_gyak_1/ea_gyak_1.aux" 1694953520 1246 22a3e28a98dfcf19242807c5dfb9f221 "pdflatex"
-  "Ea_gyak_1/ea_gyak_1.tex" 1694953508 27388 5f6e7521b55bff2d35dcb8b644cf9433 ""
-  "Ea_gyak_3/Ea_gyak_3.aux" 1694953520 1247 25ad6875d0808405627e34151bbd145d "pdflatex"
+  "Ea_gyak_1/ea_gyak_1.aux" 1694956172 1246 22a3e28a98dfcf19242807c5dfb9f221 "pdflatex"
+  "Ea_gyak_1/ea_gyak_1.tex" 1694956156 28807 0138e22c2d2bb6a76b5f5fe162fbc9e9 ""
+  "Ea_gyak_3/Ea_gyak_3.aux" 1694956172 1247 25ad6875d0808405627e34151bbd145d "pdflatex"
   "Ea_gyak_3/Ea_gyak_3.tex" 1694875176 12811 caee3bb34106fc6b76a49ed50d06e74d ""
   "bme_logo_nagy.jpg" 1694779155 421830 6be4e417acfa36622eb75b8dd8d24169 ""
   "c:/Users/kisha/Programok/vs code/Dinamika_gyak_ea/dinamika_ea_gyak.tex" 1694875176 1868 ad7c6dcd0969955f1d03fc1239200a1f ""
-  "dinamika_ea_gyak.aux" 1694953520 702 37d82aea76280db9a7573a1f4061b856 "pdflatex"
+  "dinamika_ea_gyak.aux" 1694956172 702 37d82aea76280db9a7573a1f4061b856 "pdflatex"
   "dinamika_ea_gyak.out" 0 -1 0 "pdflatex"
   "dinamika_ea_gyak.tex" 1694875176 1868 ad7c6dcd0969955f1d03fc1239200a1f ""
   (generated)

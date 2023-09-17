@@ -647,7 +647,43 @@ Az adott pályán mozgó anyagi pont pozícióját egyértelműen megadhatjuk eg
     \item Számítsa ki és ábrázolja az \(\underline{a}_1\) gyorsulás normális és tangenciális komponens
     \item A \(\varphi_1 = 75^{\circ}\) szöghelyzetben számítsa ki a páya \(\varrho_1\) görbületi sugarát!
 \end{itemize}
-\Pointilles{22}
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines=center,
+            xlabel={$x$},
+            ylabel={$y$},
+            xmin=-5, xmax=35,
+            ymin=-5, ymax=35,
+            ticks=none, % Hide axis ticks
+            width=10cm, % Adjust the width of the plot
+            height=10cm, % Adjust the height of the plot
+            enlargelimits=0.3, % Add some padding to the plot
+            ]
+        %dashed circ
+        \draw[dashed, line width=1pt,] (axis cs: 0, 15) circle [radius=15];
+        
+        %circle
+        \draw[line width=1pt,] (axis cs: 30, 15) circle [radius=15];
+        
+        % center point dashed
+        \addplot[mark=*, mark options = {color=black,scale=0.8,}] coordinates {(0,15)} node[right, pos=1] {$S_0$}; 
+        
+        % center point
+        \addplot[mark=*, mark options = {color=black,scale=0.8,}] coordinates {(30,15)} node[right, pos=1] {$S$}; 
+
+        % line & R
+        \addplot[line width=0.8pt, color = black] coordinates {
+                ({0}, {15}) ({12}, {24})};
+        \addplot[line width=0.8pt, color = black] coordinates {
+                ({20}, {30}) ({15}, {26.25})} node[above, pos=1] {$R$};        
+        \addplot[-latex, line width=0.8pt, color = black] coordinates {
+                ({15}, {26.25}) ({12}, {24})};
+            
+        \end{axis}
+    \end{tikzpicture}
+\end{center}
+\Pointilles{5}
 \end{tcolorbox}
 \begin{tcolorbox}[colback=MidnightBlue!5!white,colframe=MidnightBlue!60!black,title= 1. Feladat]
     \setstretch{1.2}
